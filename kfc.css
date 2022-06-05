@@ -1,0 +1,363 @@
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(252, 250, 250);
+   
+    display: flex;
+    justify-content: space-between;
+align-items: c;
+position: sticky;
+top: 0;
+
+}
+
+.sub-header{
+    width: 100%;
+    height: 70px;
+    background-color:  #212529;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.logo{
+    margin-top: 47px;
+    margin-left: 103px;
+    width: 80px;
+    
+    
+}
+.header-text{
+    font: size 19px; 
+    color: black;
+    font-style:unset ;
+    font-weight: 500;
+    margin-left: 79px;
+    margin-top: 50px;
+    
+
+
+
+}
+.header-text2{
+    font: size 19px; 
+    color: black;
+    font-style:unset ;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 50px;
+    
+
+}
+.icon{
+    
+    /* margin-left: 300px; */
+    margin-top: 25;
+    
+    width: 20px;
+    padding-top: 15px;
+}
+.sign{
+    color: black;
+    font-size: 18px; 
+    padding-left: 30px;
+    font-weight: 100px;
+    border-right-color: #494949;
+    
+    
+   
+    
+margin-bottom: initial;}
+.leftside{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:flex-start;
+   
+}
+.rightside{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.buket{
+    width: 50px;
+    
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.textsubheader{
+    color: white;
+    font-size: medium;
+    display: flex;
+    font-weight: 700;
+    
+    
+}
+.button{
+    background-color: red;
+   
+    height: 33px;
+    border-radius: 15px;
+    width: 110px;
+    color: white;
+    border:0;
+    font-weight: 600;
+    margin-left: 20px;
+    font-style:inherit;
+    margin-bottom: 15px;
+}
+.leftbody2{
+    width: 25%;
+    height: 490px;
+    background-color: rgb(253, 251, 251);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 120px;
+}
+.rightbody2{
+    width: 100%;
+    height: auto;
+    background-color:rgb(247, 247, 236);
+}
+.secondbody{
+display: flex;
+}
+.mainright{
+    width: 70%;
+    height: auto;
+    background-color:white;
+    overflow-y:hidden;
+}
+.leftbodyfont{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #494949;;
+}
+.kfcfont{
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.stripes{
+    width: 56px;
+}
+.searchmenu{
+    color: black;
+    background-color: white;
+    
+    border-width: 1px;
+    border-radius: 18px;
+    border-color: #c0bdbd;
+    
+    width: 235px;
+    height: 35px;
+    font-style:unset;
+    font-weight: 500;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.rightheader{
+    width: 100%;
+    height: 50px;
+   
+    background-color:rgb(247, 247, 236);
+}
+.rightbodytopfont{
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 60px;
+}
+.bucketclass{
+    width: 82%;
+    height: 600px;
+    background-color: rgba(247, 247, 236, 0.925);
+    display: flex;
+    justify-content: space-between;    
+    flex-direction:row;
+}
+.eachclass{
+    width: 381px;
+    height: 590px;
+    background-color:white;
+    color: black;
+}
+
+.bucketclassmain{
+    height:auto;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-bottom: 50px;
+
+    gap: 20px;
+    padding-left: px;
+}
+.image{
+    width: 380px;
+}
+
+.firsttext{
+    font-size: 22px;
+    
+    font-weight: 300;
+    font-style: initial
+}
+.nonvegsize{
+    font-size: 13px;
+font-style: normal;
+
+}
+.price{
+    font-weight: 600;
+    font-size:21px;
+}
+.bottomtext{
+    font-style: inherit;
+    font-size: 15px;
+    color: #8f8989;
+    font-weight: 100;
+}
+.button{
+    background-color: red;
+    color: white;
+    
+    width: 170px;
+    height: 43px;
+    border-radius: 27px;
+    font-style: normal;
+    
+    margin-left: 39px;
+    margin-top: 15px;
+
+}
+.chickenbucket{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(247, 247, 236);
+}
+.chikenbucketstext{
+    
+    font-style: normal;
+    color:black ;
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+.eachclass6{
+    width: 32%;
+    height: 550px;
+    background-color: white
+}
+.imagechickenbuckets{
+    width: 250px;
+}
+.bucketclass2{
+    display: flex;
+    flex-direction: row;
+   justify-content:left;
+   border-left: 10px;
+}
+.footer{
+    width: 100%;
+    height: 340px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    
+justify-content: center;}
+.kfclogo{
+    width: 17%;
+    height: 340px;
+    background-color: black;
+}
+
+.text{ 
+    list-style: none;
+    width: 45%;
+    height: 340px;
+    background-color: black ;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+  
+   
+     
+
+}
+
+.location{
+    width: 15%;
+    height: 340px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+.appicon{
+    width:23% ;
+    height: 340px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    justify-content:space-around;
+}
+.kfclogo2{
+    
+    width: 90px;
+    margin-top: 106px;
+    margin-left: 58px;
+    
+}
+.textaligment{
+   padding-top: 90px;
+   padding-right: 10px;
+}
+.findkfc{
+   
+    margin-left: 12px;
+  
+    margin-top: 164px;
+    font-style: initial;
+    font-weight: normal;
+}
+
+.location1{
+    width: 15px;
+    margin-left: 45px;
+    
+}
+.textaligment li{
+    list-style: none;
+    padding: 6px 0;
+}
+.lastfooter{
+    width: 100%;
+    height: 30px;
+    background-color:black;
+    color: rgb(206, 199, 199);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+  
+
+
+
+}
